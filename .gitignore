@@ -1,0 +1,7 @@
+# NUNCA subas llaves de cifrado al repositorio
+*.key
+llave*
+# Entorno virtual y cachés de Python
+.venv/
+__pycache__/
+*.pyc
