@@ -202,7 +202,7 @@ git add .                                        # prepara todos los archivos (e
 git status                                       # verifica que NO aparezca ningún archivo .key
 git commit -m "Cifrador AES/ChaCha20 y experimentos"   # guarda una versión con un mensaje descriptivo
 git branch -M main                               # nombra la rama principal "main"
-git remote add origin https://github.com/TU_USUARIO/Algoritmos-AES-CHACHA20.git   # enlaza con tu repo vacío de GitHub
+git remote add origin https://github.com/anamcampos/Proyecto-4-Cifrado-sim-trico-AES-y-ChaCha20.git   # enlaza con tu repo vacío de GitHub
 git push -u origin main                          # sube el proyecto
 ```
 
@@ -210,9 +210,9 @@ git push -u origin main                          # sube el proyecto
 
 | Integrante | Responsabilidad |
 |---|---|
-| Integrante 2 | Desarrollo de la herramienta: investigación de `cryptography`, estructura y parámetros, algoritmos y gestión de llaves |
-| Integrante 1 | _(completar)_ |
-| Integrante 3 | _(completar)_ |
+| Integrante 1 | Investigación teórica: investigación de los fundamentos del cifrado simétrico, funcionamiento AES, modos de operación, IV, nonce y cifrado autenticado (AEAD). |
+| Integrante 2 | Desarrollo de la herramienta: investigación de `cryptography`, estructura y parámetros, algoritmos y gestión de llaves. |
+| Integrante 3 | Experimentación y pruebas: investigación de experimentos ECB, manipulación y rendimiento, pruebas de seguridad, comparativas de desempeño y casos reales del mal uso del cifrado simétrico. |
 
 ## 10. Referencias
 
